@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Calculadora JavaScript</title>
+</head>
+
+<body>
+
+    <form action="" name="calc">
+        <div class="calculator">
+            <input type="text" id="visor" name="visor" disabled>
+            <div id="first">
+                <input type="button" value="7" class="botaoborda" onclick="botao(value)">
+                <input type="button" value="8" class="botaoborda" onclick="botao(value)">
+                <input type="button" value="9" class="botaoborda" onclick="botao(value)">
+                <input type="button" value="/" class="botaoborda" onclick="botao(value)">
+            </div>
+            <div id="second">
+                <input type="button" value="4" class="botaoborda" onclick="botao(value)">
+                <input type="button" value="5" class="botaoborda" onclick="botao(value)">
+                <input type="button" value="6" class="botaoborda" onclick="botao(value)">
+                <input type="button" value="*" class="botaoborda" onclick="botao(value)">
+            </div>
+            <div id="third">
+                <input type="button" value="1" class="botaoborda" onclick="botao(value)">
+                <input type="button" value="2" class="botaoborda" onclick="botao(value)">
+                <input type="button" value="3" class="botaoborda" onclick="botao(value)">
+                <input type="button" value="-" class="botaoborda" onclick="botao(value)">
+            </div>
+            <div id="fourth">
+                <input type="button" value="C" class="botaobordac" onclick="reset()">
+                <input type="button" value="0" class="botaoborda" onclick="botao(value)">
+                <input type="button" value="=" class="botaoborda" onclick="calcule()">
+                <input type="button" value="+" class="botaobordam" onclick="botao(value)">
+            </div>
+        </div>
+    </form>
+
+
+
+    <script src="script/calculadora.js">
+    </script>
+</body>
+
+</html>
